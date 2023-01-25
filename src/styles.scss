@@ -1,0 +1,22 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ General Style  ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+$bg-body: #E8F3FF;
+$primary-color: rgba(212, 0, 255, 0.493);
+$p-color: black;
+$footer: #AA8439;
+$fonts: Arial, sans-serif;
+
+#main-content {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align:justify;
+
+    h3{
+        display: flex;
+        text-align: center;
+    }
+}
+  

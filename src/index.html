@@ -3,31 +3,92 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>My Webpage</title>
+        <title>Mark De Guzman</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <nav id="navbar">
-            <ul>
-              <li class="nav-item">
-                <a href="#">Home</a>
+      <div class="col-xl-12 border bg-primary bg-gradient text-white">
+        <h1 class ="display-2 text-center" href="#">Mark De Guzman</h1>
+      </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a href="about.html">About</a>
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="dropbtn" href="portfolio.html" >Portfolio</a>
+                  <div class="dropdown-content">
+                    <a href="https://www.mcelhanney.com/">McElhanney</a>
+                    <a href="https://mobilityquotient.com/">Mobility Quotient</a>
+                    <a href="https://ihop.ca/">iHop</a>
+                    <a href="https://www.calgarystampede.com/">Calgary Stampede</a>
+                  </div>
               </li>
               <li class="nav-item">
-                <a href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
               <li class="nav-item">
-                <a href="#contact">Contact</a>
+                <a class="nav-link" href="blog.html">Blog</a>
               </li>
             </ul>
+          </div>
         </nav>
-        <h1>Mark De Guzman</h1>
-        <img src="C:\Mark\UofC\ENGO 551\lecture0\images\CSX_Front.png" width="500">
-        <img src="C:\Mark\UofC\ENGO 551\lecture0\images\CSX_Rear.png" width="500">
+        <div id = "main-content">
+          <h1 class="content-title text-center"> Hello Viewer! </h1>
+          <h3 class="content-item text-center"> My name is Mark De Guzman. I am a student at the University of Calgary purusing an undergraduate degree in Geomatics Engineering.</h3>
+          <div id = "leftj-pic">
+            <img src="images/pfp.jpg" alt="Headshot" class="responsive-img-sm">
+          </div>
+        </div>
+        <div class="col-md-6 p-2 mx-auto accordion" id="SummaryAccordion">
+          <h5>Click on the following tabs to learn more about me!</h5>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="HeadingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <p> <strong>Hobbies/Interests</strong> </p>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="HeadingOne" data-bs-parent="#SummaryAccordion">
+              <div class="accordion-body">
+              <p><a href="about.html">Click here</a> to find out more about me!</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="HeadingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <p> <strong>Work Experience</strong> </p>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="HeadingTwo" data-bs-parent="#SummaryAccordion">
+              <div class="accordion-body">
+                <p><a href="portfolio.html">This</a> page showcases my work experiences</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="HeadingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <p> <strong>Blog</strong> </p>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="HeadingThree" data-bs-parent="#SummaryAccordion">
+              <div class="accordion-body">
+                <p>Stay updated on my career/life on <a href="blog.html"> this page</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>          
